@@ -169,7 +169,6 @@ p>span>span{
 .blanki-niche h3{
     font-size: 1.4vw;
     color: white;
-    font-weight: 100;
     line-height: 2vw;
 }
 
@@ -276,7 +275,6 @@ p>span>span{
     .blanki-niche h3{
         font-size: 2.5vw;
         line-height: 2.8vw;
-        font-weight: 600;
         letter-spacing: .08vw;
     }
 }
@@ -301,13 +299,11 @@ p>span>span{
     letter-spacing: 0.04vw;
     font-size: 1vw;
     color: #797878be;
-    font-weight: 100;
 }
 
 #top h3 {
     margin: 2vw 17vw;
     line-height: 2.2vw;
-    font-weight: 100;
     letter-spacing: 0.01vw;
 }
 
