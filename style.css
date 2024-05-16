@@ -275,7 +275,6 @@ p>span>span{
     }
     .blanki-niche h3{
         font-size: 2.5vw;
-        font-weight: 100;
         line-height: 2.8vw;
         letter-spacing: .08vw;
     }
@@ -353,6 +352,13 @@ p>span>span{
     #work{
         width: 100%;
         margin-top: 20vw;
+    }
+    #arr{
+        margin-right: 4vw;
+        margin-bottom: 7vw;
+    }
+    #arr .o-ui-arrow{
+        width: 8vw;
     }
     .o-ui-arrow path {
         stroke: rgba(11, 10, 10, 0.637);
@@ -507,6 +513,8 @@ p>span>span{
 }
 .skill-bich{
     width: 80%;
+    font-size: 1.7vw;
+    color: #383838;
 }
 .skill-niche{
     width: 79vw;
@@ -535,6 +543,9 @@ p>span>span{
 }
 
 @media(max-width : 600px){  
+    #skill{
+        margin-top: 8vw;
+    }
     .skill-tir{
         margin-right: 3vw;
         margin-top: -5vw;
@@ -544,6 +555,7 @@ p>span>span{
     }
     .skill-bich{
         width: 82%;
+        text-align: justify;
         margin-top: -4vw;
         font-size: 3vw;
     }
