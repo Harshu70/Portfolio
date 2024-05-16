@@ -128,14 +128,15 @@ html{
 #blanki>h1 >span{
     color: var(--main);
 }
-#blanki p{
+#blanki>p{
     color: white;
     position: absolute;
     top: 22%;
     width: 70vw;
-    z-index: 9;
-    font-size: 1.4vw;
+    font-size: 1.6vw;
     padding: 1.4vw;
+    text-align: justify;
+    font-family: serif;
 }
 p>span{
     font-size: 2vw;
@@ -155,21 +156,24 @@ p>span>span{
 }
 .blanki-niche{
     position: absolute;
-    top: 55%;
+    top: 57%;
     width: 50vw;
     padding: 1.4vw;
 }
 .blanki-niche h1{
     color: white;
-    font-size: 2.2vw;
+    font-size: 2.4vw;
+    font-family: serif;
+    padding: 0 0 1vw 0vw;
 }
 .blanki-niche h1 span{
     color: var(--main);
 }
-.blanki-niche h3{
-    font-size: 1.4vw;
+.blanki-niche>p{
+    font-size: 1.6vw;
     color: white;
-    line-height: 2vw;
+    line-height: 1.7vw;
+    font-family: serif;
 }
 
 
@@ -249,7 +253,7 @@ p>span>span{
         left: 6%;
         font-size: 7vw;
     }
-    #blanki p{
+    #blanki>p{
         top: 28%;
         width: 78vw;
         font-size: 2.5vw;
@@ -270,12 +274,11 @@ p>span>span{
     }
     .blanki-niche h1{
         font-size: 3.3vw;
-        margin: 0 0 1vw 0;
     }
-    .blanki-niche h3{
+    .blanki-niche>p{
         font-size: 2.5vw;
         line-height: 2.8vw;
-        letter-spacing: .08vw;
+        letter-spacing: .06vw;
     }
 }
 
@@ -350,26 +353,26 @@ p>span>span{
         width: 100%;
         margin-top: 20vw;
     }
+    #svg .o-ui-arrow{
+        width: 10vw;
+    }
     #arr{
         margin-right: 4vw;
         margin-bottom: 7vw;
-    }
-    #arr .o-ui-arrow{
-        width: 8vw;
     }
     .o-ui-arrow path {
         stroke: rgba(11, 10, 10, 0.637);
     }
     #top h6 {
         margin: 7vw 0 0 16vw;
-        line-height: 4vw;
-        font-size: 3vw;
+        line-height: 3.5vw;
+        font-size: 2.5vw;
         color: #565555e6;
     }
     #top h3 {
-        margin: 3vw 0 13vw 16vw;
-        font-size: 5vw;
-        line-height: 6.4vw;
+        margin: 3vw 0 12vw 16vw;
+        font-size: 4vw;
+        line-height: 5.3vw;
     }
     #lamba-line {
         height: 2.2px;
@@ -382,6 +385,7 @@ p>span>span{
     
     #arr .o-ui-arrow {
         transform: rotate(45deg);
+        width: 8vw;
     }
     
     .feat-work {
@@ -465,9 +469,8 @@ p>span>span{
         align-items: center;
     }
     .pro{
-        height: 50vw;
-        width: 55vw;
-        margin-top: 4vw;
+        height: 65vw;
+        width: 70vw;
     }
     .pro-up img:nth-child(1){
         aspect-ratio: 1.77;
@@ -511,6 +514,7 @@ p>span>span{
 .skill-bich{
     width: 80%;
     font-size: 1.7vw;
+    font-family: serif;
     color: #383838;
 }
 .skill-niche{
@@ -551,7 +555,7 @@ p>span>span{
         stroke: rgba(7, 7, 7, 0.637);
     }
     .skill-bich{
-        width: 82%;
+        width: 78%;
         text-align: justify;
         margin-top: -4vw;
         font-size: 3vw;
@@ -561,7 +565,7 @@ p>span>span{
         margin: 9vw 0;
     }
     .box{
-        margin: 3.5vw 1vw;
+        margin: 3vw 1vw;
         align-items: center;
         justify-content: center;
         padding: 3vw;
