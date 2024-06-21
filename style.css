@@ -18,7 +18,7 @@ html{
     width: 100%;
 }
 #nav{
-    background-color: black;
+    background-color: red;
     display: flex;
     justify-content: space-between;
     align-items: center;
